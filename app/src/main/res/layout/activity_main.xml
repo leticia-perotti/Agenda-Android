@@ -4,22 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView2"
+    <ListView
+        android:id="@+id/activity_main_lista_alunos"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Letícia" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Gabriel" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Fernanda" />
-
+        android:layout_height="match_parent" />
 </LinearLayout>
